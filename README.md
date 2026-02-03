@@ -34,7 +34,7 @@ Python-Yandex-practical/
 Каждая папка соответствует разделу курса, а файлы внутри — решениям конкретных задач.
 
 ## 🎯 Прогресс прохождения
-![Progress](https://img.shields.io/badge/Прогресс-11%25-blue?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Прогресс-4%25-blue?style=for-the-badge)
 ![Tasks](https://img.shields.io/badge/Решено_задач-8-green?style=for-the-badge)
 ![Updated](https://img.shields.io/badge/Обновлено-03.02.2026-orange?style=for-the-badge)
 
