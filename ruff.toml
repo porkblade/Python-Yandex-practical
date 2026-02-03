@@ -1,0 +1,53 @@
+# Настройки Ruff для учебного проекта
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "N",   # pep8-naming
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "A",   # flake8-builtins
+    "C4",  # flake8-comprehensions
+    "DTZ", # flake8-datetimez
+    "ICN", # flake8-import-conventions
+    "PIE", # flake8-pie
+    "PT",  # flake8-pytest-style
+    "Q",   # flake8-quotes
+    "RSE", # flake8-raise
+    "RET", # flake8-return
+    "SIM", # flake8-simplify
+    "PTH", # flake8-use-pathlib
+    "PL",  # pylint
+    "RUF", # ruff-specific rules
+]
+
+ignore = [
+    # Правила документации (не обязательны для учебных задач)
+    "D",
+    
+    # Слишком строгие правила для учебных задач
+    "PLR2004", # magic-value-comparison
+    "PLR0913", # too-many-arguments
+    "PLR0912", # too-many-branches
+    "PLR0915", # too-many-statements
+    
+    # Амбигуозные символы (могут быть в задачах на русском)
+    "RUF001",
+    "RUF002",
+    "RUF003",
+    
+    # Print statements разрешены (нужны для вывода)
+    "T201",
+]
+
+[lint.isort]
+known-first-party = []
+
+[format]
+quote-style = "double"
+indent-style = "space"
