@@ -35,7 +35,7 @@ Python-Yandex-practical/
 
 ## 🎯 Прогресс прохождения
 ![Progress](https://img.shields.io/badge/Прогресс-4%25-blue?style=for-the-badge)
-![Tasks](https://img.shields.io/badge/Решено_задач-14-green?style=for-the-badge)
+![Tasks](https://img.shields.io/badge/Решено_задач-15-green?style=for-the-badge)
 ![Updated](https://img.shields.io/badge/Обновлено-24.02.2026-orange?style=for-the-badge)
 
 - [ ] 1. Введение
